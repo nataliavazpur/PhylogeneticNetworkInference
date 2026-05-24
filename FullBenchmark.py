@@ -7,13 +7,13 @@ from typing import List, Dict, Any, Optional
 
 import pandas as pd  # pip install pandas openpyxl
 
-from treegeneratorbinaryornot import generate_dataset
+from SyntheticDataGenerator import generate_dataset
 
 # =========================
 # Configuration
 # =========================
 
-THESIS_SCRIPT = "ThesisCleanWithNN.py"
+THESIS_SCRIPT = "MainAlgorithmDefinition.py"
 TREESDOCUMENT_FILE = "trees.txt"
 OUTPUT_DIR = "limit_iterations_2"
 
