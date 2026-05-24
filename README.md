@@ -73,3 +73,15 @@ You can generate specific temporal networks and trees without running a full ben
 python SyntheticDataGenerator.py
 ```
 This will output a `.txt` file with the generated Newick trees that you can manually inspect or pass to other tools.
+
+## Data and Reproducibility
+
+To ensure the full reproducibility of this research, a compressed archive named `bench_outputs_all.zip` has been included in this repository. This folder contains all the raw data, logs, and generated datasets used to perform the final analysis presented in this project. You can extract it to inspect the exact outputs produced during the evaluation phase.
+
+## Statistical Analysis
+
+The statistical evaluation and visualization of the benchmark results were conducted using **R**. The corresponding R script is included in this repository. It contains the code used to parse the output data, generate comparative plots, and perform the statistical tests to evaluate the performance of the MCTS and Neural Network approaches against the baseline algorithms.
+
+## Master's Thesis Document
+
+For a deep dive into the theoretical framework, mathematical formulations, and detailed methodology behind the algorithms implemented here, please refer to the attached Master's Thesis PDF document included in the root directory. It provides comprehensive context on the Temporal Cherry Picking Sequence (CPS) problem, the MCTS formulation, and the integration of Scale-Invariant features for the Neural Network.
